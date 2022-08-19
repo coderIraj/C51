@@ -1,0 +1,32 @@
+h1{
+    color:orange;
+}
+body{
+    background-color: #808080;
+}
+
+h2{
+    color:rgb( 40,16,227 );
+}
+p{
+    color:purple;
+}
+.header{
+padding:50px;
+border:2px solid;
+background-color: blueviolet;
+display:flex;
+justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+p,h2{
+    text-align:center; 
+}
